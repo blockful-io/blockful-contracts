@@ -19,7 +19,7 @@ abstract contract ERC20 is IERC20, IERC20Permit, IERC20Errors {
         );
 
     /**
-     *  @dev See {IERC20Permit-DOMAIN_SEPARATOR}.
+     * @dev See {IERC20Permit-DOMAIN_SEPARATOR}.
      */
     bytes32 private immutable _domainSeparator;
 
